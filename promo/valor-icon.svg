@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Valor – app icon</title>
+  <defs>
+    <linearGradient id="bg" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#FF7C8C"/>
+      <stop offset="0.5" stop-color="#FA2D48"/>
+      <stop offset="1" stop-color="#7A2FF0"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.26" cy="0.12" r="0.8">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" gradientUnits="userSpaceOnUse" x1="0" y1="247" x2="0" y2="777">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFE4E9"/>
+    </linearGradient>
+    <filter id="halo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#4a0a2a" flood-opacity="0.38"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="232" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="232" fill="url(#sheen)"/>
+  <!-- a V (valor) whose right arm ends in a light: the dot is the lit-up moment -->
+  <path d="M300 297 L512 727 L660 426" fill="none" stroke="url(#ink)" stroke-width="100" stroke-linecap="round" stroke-linejoin="round" filter="url(#drop)"/>
+  <circle cx="724" cy="297" r="104" fill="#fff" opacity="0.6" filter="url(#halo)"/>
+  <circle cx="724" cy="297" r="62" fill="#fff"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300">
+  <title>Valor – logo lockup (the PNG export is the reference rendering of the wordmark)</title>
+  <defs>
+    <linearGradient id="bg" x1="0.08" y1="0" x2="0.92" y2="1">
+      <stop offset="0" stop-color="#FF7C8C"/><stop offset="0.5" stop-color="#FA2D48"/><stop offset="1" stop-color="#7A2FF0"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.26" cy="0.12" r="0.8"><stop offset="0" stop-color="#fff" stop-opacity="0.42"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <filter id="halo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <g transform="translate(10 10) scale(0.2734)">
+    <rect width="1024" height="1024" rx="232" fill="url(#bg)"/>
+    <rect width="1024" height="1024" rx="232" fill="url(#sheen)"/>
+    <path d="M300 297 L512 727 L660 426" fill="none" stroke="#fff" stroke-width="100" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="724" cy="297" r="104" fill="#fff" opacity="0.6" filter="url(#halo)"/>
+    <circle cx="724" cy="297" r="62" fill="#fff"/>
+  </g>
+  <text x="330" y="196" fill="#F5F5F7" font-family="'SF Pro Display','Segoe UI Variable Display','Segoe UI',Inter,system-ui,sans-serif" font-size="164" font-weight="700" letter-spacing="-7">Valor</text>
+</svg>
