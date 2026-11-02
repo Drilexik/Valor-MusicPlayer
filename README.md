@@ -22,7 +22,7 @@
 - **Fronta** – odebírání, uložení fronty jako playlist, obnova fronty a pozice po restartu.
 - **Windows integrace** – ovládání médií, tlačítka na náhledu v hlavním panelu, ikona v oznamovací oblasti, mini přehrávač.
 - **Scrobbling** (ListenBrainz) a **Discord Rich Presence**.
-- **Vlastní klávesové zkratky**, automatické aktualizace z GitHub Releases.
+- **Vlastní klávesové zkratky**, automatické aktualizace z GitHub Releases (při startu se zobrazí okno se seznamem změn).
 
 <p align="center">
   <img src="promo/lyrics.png" width="80%" alt="Texty">
@@ -30,15 +30,15 @@
 
 ## Instalace
 
-1. Stáhni [`release/Valor-Setup-0.1.0.exe`](release/Valor-Setup-0.1.0.exe) (nebo ze záložky *Releases*).
+1. Stáhni nejnovější `Valor-Setup-x.y.z.exe` ze záložky [Releases](https://github.com/Drilexik/Valor-MusicPlayer/releases/latest).
 2. Spusť instalátor a projdi průvodcem.
 3. Windows SmartScreen může upozornit, že aplikace není podepsaná – *Další informace → Přesto spustit*.
 
 ## Přihlášení
 
 Valor funguje i **anonymně** (bez účtu, s blokací reklam). Pro vlastní knihovnu, lajky a playlisty se
-přihlas v aplikaci; přihlášení probíhá na stránkách Googlu a Valor heslo nevidí.
-Google může přihlášení ve vložených oknech občas odmítnout – pak to zkus znovu, případně použij anonymní režim.
+přihlas se v aplikaci: otevře se tvůj Chrome (nebo Edge), kde se přihlásíš normálně, a Valor si převezme jen přihlašovací cookies. Heslo nevidí.
+Do Chrome/Edge se přihlašuje proto, že Google odmítá přihlášení ve vložených oknech.
 
 ## Co je zatím nezkoušené / chybí
 
